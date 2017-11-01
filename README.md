@@ -24,7 +24,7 @@ Modify app-config if needed.
 
 ## Build
 ```bash
-npm run install
+npm run build
 ```
 ## Run
 ```bash
