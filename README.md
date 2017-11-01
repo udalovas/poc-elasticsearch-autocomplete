@@ -1,6 +1,6 @@
-# Elastic Searc setup (Dev mode)
+# Elastic Search setup
 
-There several options described in the official ES documentation, if you have Docker running in your env, you can do the following:
+There several options described in the official ES documentation, if you have Docker running in your env, you might want to do something like that:
 
 ## Install ES
 
