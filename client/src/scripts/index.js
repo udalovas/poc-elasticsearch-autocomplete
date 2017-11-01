@@ -10,9 +10,9 @@ import '../styles/autocomplete.css';
     var productCardFn = doT.template($('#bestby-product-details-card-tmpl').text());
     var esClient = new elasticsearch.Client({
         host: {
-            host: config.host,
-            protocol: config.protocol,
-            port: config.port
+            host: config.es.host,
+            protocol: config.es.protocol,
+            port: config.es.port
         }
     });
     autocomplete('#products', { hint: false }, [{
